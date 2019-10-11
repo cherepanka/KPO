@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tariff>
+    <tariffs tariffName = "include. communicate">
+        <operator> Megafone </operator >
+        <payroll>350</payroll>
+        <callPrices>
+            <callLocalNumbersMegafon>0,0</callLocalNumbersMegafon>
+            <callLocalNumbersOtherOperators>2,2</callLocalNumbersOtherOperators>
+            <callsLocalUrbanNumbers>3,3</callsLocalUrbanNumbers>
+        </callPrices>
+        <smsPrice>2,5</smsPrice>
+        <parameters>
+            <PresenceFavoriteNumber>0</PresenceFavoriteNumber>
+            <tariffia>1 min</tariffia>
+            <paymentConnection>0</paymentConnection>
+        </parameters>
+    </tariffs>
+    <tariffs tariffName = "Smart">
+        <operator>MTS</operator >
+        <payroll>250</payroll>
+        <callPrices>
+            <callLocalNumbersMTS>0,0</callLocalNumbersMTS>
+            <callLocalNumbersOtherOperators>3,0
+            </callLocalNumbersOtherOperators>
+            <callsLocalUrbanNumbers>3,0</callsLocalUrbanNumbers>
+        </callPrices>
+        <smsPrice>2,0</smsPrice>
+        <parameters>
+            <PresenceFavoriteNumber>0</PresenceFavoriteNumber>
+            <tariffia>3 sec</tariffia>
+            <paymentConnection>0</paymentConnection>
+        </parameters>
+    </tariffs>
+    <tariffs tariffName = "Anlim">
+        <operator>Beeline</operator >
+        <payroll>300</payroll>
+        <callPrices>
+            <callLocalNumbersBeeline>0,25
+            </callLocalNumbersBeeline>
+            <callLocalNumbersOtherOperators>2,5
+            </callLocalNumbersOtherOperators>
+            <callsLocalUrbanNumbers>2,5</callsLocalUrbanNumbers>
+        </callPrices>
+        <smsPrice>2,5</smsPrice>
+        <parameters>
+            <PresenceFavoriteNumber>0</PresenceFavoriteNumber>
+            <tariffia>1 min</tariffia>
+            <paymentConnection>0</paymentConnection>
+        </parameters>
+    </tariffs>
+</tariff>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+		targetNamespace="http://www.example.com/students"
+		xmlns:tns="http://www.example.com/students"
+		elementFormDefault="qualified">
+	<element name="tariff">
+		<complexType>
+			<sequence>
+				<element name="tariff"
+						 type="string"
+						 minOccurs="1"
+						 maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+		<сomplexType name="Tariffs">
+			<sequence>
+				<element name=" operator" type="string" />
+				<element name="payroll" type="integer" />
+				<element name="callPrices" type="string" />
+				<element name="smsPrices" type="float" />
+				<element name = "parameters" type = "tns:parameter"/>
+			</sequence>
+			<attribute name=" tariffName" type="string" />
+		</сomplexType>
+	<simpleType name="tariffName ">
+		<restriction base="ID">
+			<pattern value=" [\s[a-zA-Z0-9]{5,30}"/>
+		</restriction>
+	</simpleType>
+	<complexType name="СallPrices ">
+		<sequence>
+			<element name=" callLocalNumbersBeeline " type="float" />
+			<element name=" callLocalNumbersOtherOperators " type="float" />
+			<element name=" callsLocalUrbanNumbers " type="float" />
+			<element name=" callsUrbanNumbersOtherRegionsRussia " type="float" />
+			<element name=" callsNumberOtherRussianOperators " type="float" />
+		</sequence>
+	</complexType>
+	<complexType name="parameters ">
+		<sequence>
+			<element name=" thePresenceFavoriteNumber " type="integer" />
+			<element name="tariff" type="string" />
+			<element name="paymentConnection" type="integer" />
+		</sequence>
+	</complexType>
+</schema>
