@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Timetable>
+    <Subject SubjectName = "Math">
+        <Time> 8:40 </Time >
+        <classroom>212</classroom>
+    </Subject>
+    <Subject SubjectName = "Physics">
+        <Time> 8:30 </Time >
+        <classroom>232</classroom>
+    </Subject>
+    <Subject SubjectName = "Chemistry">
+        <Time> 9:40 </Time >
+        <classroom>234</classroom>
+    </Subject>
+    <Teachers TeachersName = "Popov Vasilii Viktorovich">
+        <Subject> Math </Subject >
+        <number_of_pairs>12</number_of_pairs>
+        <number_of_student> 23 </number_of_student>
+    </Teachers>
+    <Teachers TeachersName = "Petrov Viktor Viktorovich">
+        <Subject> Math </Subject >
+        <number_of_pairs>12</number_of_pairs>
+        <number_of_student> 23 </number_of_student>
+    </Teachers>
+    <Teachers TeachersName = "Masyta Fedor Viktorovich">
+        <Subject> Math </Subject >
+        <number_of_pairs>12</number_of_pairs>
+        <number_of_student> 23 </number_of_student>
+    </Teachers>
+</Timetable>
