@@ -1,0 +1,6 @@
+<root>
+    <item name='javax.xml.bind.Marshaller void marshal(java.lang.Object, java.io.Writer)'>
+        <annotation name='org.jetbrains.annotations.NonBlocking'/>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
