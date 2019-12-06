@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns2:getSubjectResponse xmlns:ns2="http://spring.io/guides/gs-producing-web-service">
+            <ns2:subject>
+                <ns2:name>Math</ns2:name>
+                <ns2:audience>2454</ns2:audience>
+                <ns2:time>8.30</ns2:time>
+                <ns2:group>TTp.1-16-1</ns2:group>
+            </ns2:subject>
+        </ns2:getSubjectResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
